@@ -1,4 +1,4 @@
 module.exports = {
-    JWT_SECRET : "bhhshkadsfhdvhdfgadfs",
+    JWT_SECRET:process.env.JWT_SEC,
     MONGOURI : process.env.MONGOURI
 }
