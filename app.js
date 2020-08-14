@@ -10,8 +10,8 @@ mongoose.connect(MONGOURI, {useNewUrlParser: true, useUnifiedTopology: true } ,(
     console.log("Connected to server");
 } );
 
-require('./models/user');
-require('./models/post');
+require('./models/User');
+require('./models/Post');
 
 
 app.use(require("./routes/auth"));
